@@ -1,0 +1,14 @@
+type Query{
+    doctors:[Doctor]
+    doctorById(id : ID) : Doctor
+
+}
+type Doctor{
+    id: ID
+    name: String
+    phone: String
+    speciality: String
+    date_in: String
+    room: Int
+}
+
